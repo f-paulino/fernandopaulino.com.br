@@ -1,0 +1,16 @@
+<FilesMatch "^([^\.]+)$">
+ForceType application/x-httpd-php
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA]
+
+
+#RewriteCond %{HTTPS}::%{HTTP_HOST} ^off::(?:www\.)?(.+)$
+#RewriteRule ^ https://www.%1%{REQUEST_URI} [NE,L,R]
+
+</IfModule> 
+ServerSignature Off

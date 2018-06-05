@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'sansationbold';
+    src: url('../fonts/sansation_bold-webfont.woff2') format('woff2'),
+         url('../fonts/sansation_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sansationregular';
+    src: url('../fonts/sansation_regular-webfont.woff2') format('woff2'),
+         url('../fonts/sansation_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

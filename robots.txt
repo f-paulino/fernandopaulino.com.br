@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /behance
+Allow: /trampos
+Allow: /twitter
+Allow: /facebook
+Allow: /pinterest
+Allow: /sitemap.txt
+Disalow: /includes
+Disalow: /mail
+Sitemap: http://fernandopaulino.com.br/sitemap.txt
