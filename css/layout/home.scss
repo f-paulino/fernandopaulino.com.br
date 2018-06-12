@@ -1,0 +1,82 @@
+section#cartao-de-visita{
+    h1{
+        font-size: 42px;
+        line-height: 44px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        height: auto;
+    }
+
+    span{
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: bold;
+        background-color: #f9f9f9;
+        padding: 8px 16px 10px 16px;
+        display: inline-table;
+        margin: 0px 10px 6px 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+
+        i{
+            line-height: 20px;
+            font-size: 18px;
+            position: relative;
+            bottom: -3px;
+            color: #515151;
+        }
+    }
+}
+
+section#ultimos-trabalhos {
+	border-top: 1px solid #fff;
+	padding-top: 30px;
+    margin-top: 50px;
+    
+    &:hover{
+        h2{
+            >i { color: $orange1; }
+        }
+    }
+
+    h2{
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        padding-left: 24px;
+
+        i{
+            position: relative;
+            top: 5px;
+        }
+    }
+
+    div.um-trabalho {
+        position: relative;
+        left: 24px;
+
+        div.row{
+            div.col-md-11{
+                background-color: #fff;
+                padding-top: 13px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+button#mais-trabalhos { float: right; }

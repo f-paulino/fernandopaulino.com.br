@@ -1,0 +1,166 @@
+div#informacoes {
+	nav{
+		text-align: center;
+		margin-bottom: 52px;
+		margin-top: 10px;
+
+		span{
+			padding: 12px 36px;
+			border: 1px solid #fff;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: normal;
+			color: $gray2;
+			margin-left: 15px;
+			cursor: pointer;
+
+			&:hover{
+				background-color: #f8f8f8;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.aba {
+	display: none;
+}
+.aba-ativa {
+	display: block;
+}
+
+span.botao-ativo {
+	background-color: #fff!important;
+	color: #000!important;
+	font-weight: bold!important;
+	border-bottom: 1px solid $orange2!important;
+}
+
+section#sobre {
+	h2 {
+		font-size: 23px;
+		text-transform: uppercase;
+
+		i{
+			color: $orange2;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 27px;
+		}
+
+		b{ letter-spacing: -1px; }
+	}
+
+	p{ font-size: $standard-font-size; }
+
+	h3 {
+		font-size: 18px;
+		display: table;
+		font-weight: bold;
+		background-color: #fff;
+		padding: 10px 20px;
+		border-left: 2px solid $orange2;
+		margin-top: 26px;
+	}
+}
+
+section#contato {
+	h3{
+		font-size: 18px;
+		line-height: 20px;
+		font-weight: bold;
+		background-color: #f9f9f9;
+		padding: 8px 20px 10px 20px;
+		display: inline-table;
+		border-left: 1px solid $orange2;
+		margin-bottom: 16px;
+		margin-top: -20px;
+		margin-right: 30px;
+
+		i{
+			line-height: 20px;
+			font-size: 18px;
+			position: relative;
+			bottom: -3px;
+		}
+	}
+
+	p{
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	form {
+		margin-top: 50px;
+
+		input{
+			border-radius: 0px;
+			border: 1px solid #ccc;
+			box-shadow: none;
+			height: 43px!important;
+		}
+
+		button{
+			line-height: 16px;
+			font-size: 15px;
+			height: 38px;
+			border-radius: 0px;
+
+			i{
+				font-size: inherit!important;
+				position: relative;	
+				top: 2px;
+			}
+		}
+	}
+}
+
+section#oque-faz {
+	span{
+		display: inline-block;
+		padding: 12px 26px;
+		background-color: #fff;
+		color: #000;
+		text-transform: uppercase;
+		font-size: 26px;
+		position: relative;
+		left: 20px;
+		margin: 0px 20px 20px 0px;
+		border-right: 2px solid #ccc;
+		border-bottom: 2px solid #ccc;
+		cursor: pointer;
+
+		&:hover i{
+			color: $orange2;
+		}
+
+		i{
+			position: relative;
+			top: 3px;
+			margin-right: 8px;
+			color: #777;
+		}
+	}
+}
+
+
+// Media queries
+@media (max-width: $smartphone-max-width){
+	div#informacoes{
+		nav{
+			span{
+				padding: 12px 20px;
+				border: 1px solid #fff;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: normal;
+				color: $gray2;
+				margin-left: 15px;
+				cursor: pointer;
+
+				&:first-child{ margin-left: 0px; }
+			}
+		}
+	}
+}

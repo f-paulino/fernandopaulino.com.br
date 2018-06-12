@@ -4,19 +4,12 @@
     <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='shortcut icon' type='image/x-icon' href='img/icon/favicon.ico' />
-
-    <!-- Frameworks CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="css/google/material.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Fontes e ícones -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
-    <!-- Estilos -->
-    <link href="css/personal.css" rel="stylesheet">
-    <link href="css/mobile.css" rel="stylesheet">
 
     <?php include('otimize.php'); ?>
     <title><?= $title; ?></title>
